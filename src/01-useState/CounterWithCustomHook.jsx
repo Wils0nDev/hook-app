@@ -1,5 +1,5 @@
+import { useCounterObject } from "../hooks";
 
-import { UseCounter } from "../../hooks/useCounter";
 
 
 export const CounterWithCustomHook = () => {
@@ -12,7 +12,7 @@ export const CounterWithCustomHook = () => {
 
   //*UseCounter : es nuestro customHook que retornara todo lo que necesitamos para
   //* hacer uso en nuestra UI y poder renderizarlo.
-  const {counter,increment,decrement,reset} = UseCounter(counterObj);
+  const {counter,increment,decrement,reset} = useCounterObject(counterObj);
 
     //*counter : estado
     //*increment,decrement, reset : funciones que realizan acciones
