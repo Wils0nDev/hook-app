@@ -1,7 +1,7 @@
 import React from "react";
 import { TodoList } from "./components/TodoList";
 import { TodoAdd } from "./components/TodoAdd";
-import { useTodos } from "./components/useTodo";
+import { useTodos } from "./useTodo";
 
 
 export const TodoApp = () => {
