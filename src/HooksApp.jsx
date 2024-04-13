@@ -8,6 +8,7 @@ import { Memorize } from './06-memo/Memorize';
 import { MemoHook } from './06-memo/MemoHook';
 import CallbackHook from './07-useCallback/CallbackHook';
 import { TodoApp } from './08-useReducer/TodoApp';
+import { MainPage } from './09-useContext/MainPage';
 
 
 
@@ -26,7 +27,8 @@ export const HooksApp = () => {
        {/* <Memorize />  */}
        {/* <MemoHook /> */}
        {/* <CallbackHook /> */}
-       <TodoApp />
+       {/* <TodoApp /> */}
+       <MainPage />
        </>
     );
 }
