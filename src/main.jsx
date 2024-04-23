@@ -26,7 +26,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter >
   {/*  <React.StrictMode> */}
   {/* <RouterProvider router={router} /> */}
-   <MainPage />
+  <HooksApp />
+   {/* <MainPage /> */}
   {/* // </React.StrictMode>, */}
   </BrowserRouter>
 

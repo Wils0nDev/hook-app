@@ -25,10 +25,10 @@ export const HooksApp = () => {
        {/* <FocusScreen /> */}
        {/* <Layout /> */}
        {/* <Memorize />  */}
-       {/* <MemoHook /> */}
+       <MemoHook />
        {/* <CallbackHook /> */}
        {/* <TodoApp /> */}
-       <MainPage />
+       {/* <MainPage /> */}
        </>
     );
 }
